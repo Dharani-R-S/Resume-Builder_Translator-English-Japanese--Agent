@@ -1,7 +1,7 @@
 import os
 import streamlit as st
 from langchain_groq import ChatGroq
-from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.prompts import PromptTemplate
 import pdfplumber
 from docx import Document
