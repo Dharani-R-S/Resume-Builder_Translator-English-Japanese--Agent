@@ -1,5 +1,6 @@
 # Core UI framework
 streamlit==1.35.0
+rich<14,>=10.14.0
 
 # PDF parsing
 pdfplumber==0.10.2
