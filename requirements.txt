@@ -1,0 +1,26 @@
+# Core UI framework
+streamlit==1.35.0
+
+# PDF parsing
+pdfplumber==0.10.2
+
+# LLM and prompt handling
+langchain==0.2.1
+langchain-groq==0.1.4
+
+# Embedding model
+sentence-transformers==2.6.1
+torch>=1.13.0
+
+# Word document support (optional, if you want .docx upload later)
+python-docx==1.1.0
+
+# Environment variables (optional)
+python-dotenv==1.0.1
+
+# Hugging Face Hub access (used by sentence-transformers)
+transformers==4.41.1
+huggingface-hub==0.23.2
+
+# Utilities
+tqdm==4.66.4
