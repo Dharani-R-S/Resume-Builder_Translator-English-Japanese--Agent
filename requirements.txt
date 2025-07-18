@@ -10,7 +10,7 @@ langchain-groq==0.1.4
 
 # Embedding model
 sentence-transformers==2.6.1
-torch==2.2.2
+torch==2.7.1          
 tokenizers==0.19.1
 
 # Word document support
