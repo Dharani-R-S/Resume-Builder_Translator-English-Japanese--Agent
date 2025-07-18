@@ -10,15 +10,16 @@ langchain-groq==0.1.4
 
 # Embedding model
 sentence-transformers==2.6.1
-torch>=1.13.0
+torch==2.2.2
+tokenizers==0.19.1
 
-# Word document support (optional, if you want .docx upload later)
+# Word document support
 python-docx==1.1.0
 
-# Environment variables (optional)
+# Environment variables
 python-dotenv==1.0.1
 
-# Hugging Face Hub access (used by sentence-transformers)
+# Hugging Face Hub access
 transformers==4.41.1
 huggingface-hub==0.23.2
 
