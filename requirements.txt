@@ -7,6 +7,8 @@ pdfplumber==0.10.2
 # LLM and prompt handling
 langchain==0.2.1
 langchain-groq==0.1.4
+langchain_community==0.0.26
+
 
 # Embedding model
 sentence-transformers==2.6.1
