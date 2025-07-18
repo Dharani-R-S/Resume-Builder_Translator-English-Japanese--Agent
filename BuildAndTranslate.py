@@ -6,12 +6,9 @@ from langchain.prompts import PromptTemplate
 import pdfplumber
 from docx import Document
 import io
-from dotenv import load_dotenv
 
-load_dotenv()  # Loads variables from .env
-
-os.environ["GROQ_API_KEY"] = os.getenv("GROQ_API_KEY")
-os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
+os.environ["GROQ_API_KEY"] = st.secrets["GROQ_API_KEY"]
+os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
 
 # ...rest of your code...
 
