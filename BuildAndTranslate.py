@@ -7,6 +7,9 @@ import pdfplumber
 from docx import Document
 import io
 
+# === Streamlit App ===
+st.set_page_config(page_title="🌐 Multilingual Resume Builder & Translator", layout="wide")
+
 os.environ["GROQ_API_KEY"] = st.secrets["GROQ_API_KEY"]
 os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
 
@@ -100,8 +103,6 @@ Output format: {format}
 """.strip()
 )
 
-# === Streamlit App ===
-st.set_page_config(page_title="🌐 Multilingual Resume Builder & Translator", layout="wide")
 
 # --- Sidebar Navigation ---
 st.sidebar.title("🌐 Navigation")
